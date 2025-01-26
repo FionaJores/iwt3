@@ -52,7 +52,7 @@ nav {
 
 /* Logo */
 .nav_logo a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--extra-light);
 }
@@ -72,7 +72,7 @@ nav {
 }
 
 .nav_links li {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--extra-light);
     cursor: pointer;
@@ -395,12 +395,12 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
-    margin-left: 20px;
     margin-top: 20px;
 }
 
 .image-item {
     position: relative;
+    flex: 1 1 calc(20% - 10px);
 }
 
 .image-item img {
